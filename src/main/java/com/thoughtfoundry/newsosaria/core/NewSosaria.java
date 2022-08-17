@@ -49,9 +49,9 @@ public class NewSosaria {
         modalEventProcessor = new ModalEventProcessor();
 
         info("Ready");
-        jda.getPresence().setActivity(Activity.playing("Hacking and Slashing"));
+        jda.getPresence().setActivity(Activity.playing("Hackin' n Slashin'"));
         PingLoop loop = new PingLoop();
-        Thread thread = new Thread(loop, "PingUpdate");
+        Thread thread = new Thread(loop, "Ping");
         thread.start();
     }
 }
